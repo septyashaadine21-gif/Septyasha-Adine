@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata | Septyasha Adine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/dist/status/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        .slide-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+            position: relative;
+        }
+
+        /* Penomoran Slide */
+        .slide-number {
+            position: absolute;
+            bottom: 30px;
+            right: 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            opacity: 0.3;
+        }
+
+        /* Palet Warna Pink */
+        .slide-1 { background-color: #fff5f7; color: #d63384; }
+        .slide-2 { background-color: #ff85a2; color: white; }
+        .slide-3 { background-color: #fce4ec; color: #d63384; }
+        .slide-4 { background-color: #f06292; color: white; }
+        .slide-5 { background-color: #880e4f; color: white; }
+
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border: 8px solid white;
+            border-radius: 30px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .img-placeholder {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 15px;
+            border: 5px solid rgba(255,255,255,0.5);
+        }
+
+        .content-box { max-width: 900px; width: 100%; }
+        h1 { font-weight: 700; font-size: 3rem; }
+        h2 { font-weight: 700; margin-bottom: 25px; }
+        p { line-height: 1.8; }
+        
+        .btn-next {
+            display: inline-block;
+            margin-top: 20px;
+            color: inherit;
+            text-decoration: none;
+            border: 2px solid currentColor;
+            padding: 10px 25px;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+        .btn-next:hover { background: white; color: #ff85a2; border-color: white; }
+    </style>
+</head>
+<body>
+
+    <section class="slide-section slide-1">
+        <div class="container text-center content-box">
+            <img src="jpg-gambar.jpeg" alt="Septyasha Adine" class="profile-img mb-4" onerror="this.src='https://via.placeholder.com/250x250?text=Foto+Septyasha'">
+            <h1 class="display-4">Septyasha Adine</h1>
+            <p class="lead mb-2">Universitas Negeri Medan | Bisnis Digital</p>
+            <p><i class="fas fa-envelope me-2"></i> septyashaadine21@gmail.com</p>
+            <a href="#slide2" class="btn-next">Lihat Hobi Saya <i class="fas fa-chevron-down ms-2"></i></a>
+        </div>
+        <div class="slide-number">01</div>
+    </section>
+
+    <section id="slide2" class="slide-section slide-2">
+        <div class="container content-box">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Hobi & Fokus</h2>
+                    <p class="fs-5">Saya sangat senang <strong>memasak</strong> dan <strong>jalan-jalan</strong> untuk mencari inspirasi baru.</p>
+                    <p>Secara profesional, saya fokus pada <strong>penelitian ekonomi syariah</strong> dan analisis strategi bisnis digital untuk menciptakan branding yang nyata dan berdampak.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="jpg-2.jpeg" alt="Fokus Riset" class="img-fluid img-placeholder" onerror="this.src='https://via.placeholder.com/400x300?text=Foto+Riset+&amp;+Branding'">
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#slide3" class="btn-next">Cita-Cita Saya</a>
+            </div>
+        </div>
+        <div class="slide-number">02</div>
+    </section>
+
+    <section id="slide3" class="slide-section slide-3">
+        <div class="container content-box">
+            <h2 class="text-center">Mengapa Bisnis Digital?</h2>
+            <div class="card border-0 shadow-sm p-4 text-dark" style="border-radius: 20px; background: rgba(255,255,255,0.8);">
+                <p class="text-center"><em>"Saya memilih bisnis digital sebagai cita-cita karena perkembangan teknologi saat ini semakin pesat dan membuka peluang usaha yang sangat luas. Melalui bisnis digital, saya dapat menjangkau pelanggan dari berbagai daerah tanpa harus memiliki toko fisik, sehingga modal yang dibutuhkan lebih kecil dan lebih fleksibel untuk dijalankan. Selain itu, bisnis digital juga dapat dilakukan kapan saja dan di mana saja dengan memanfaatkan internet dan media sosial. Saya juga melihat bahwa masyarakat saat ini lebih banyak menggunakan layanan digital untuk berbelanja maupun mencari informasi, sehingga peluang untuk berkembang sangat besar. Oleh karena itu, saya tertarik menjadikan bisnis digital sebagai cita-cita agar dapat mengikuti perkembangan zaman, memperoleh keuntungan, serta menciptakan peluang usaha di masa depan."</em></p>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#slide4" class="btn-next">Informasi Pribadi</a>
+            </div>
+        </div>
+        <div class="slide-number">03</div>
+    </section>
+
+    <section id="slide4" class="slide-section slide-4">
+        <div class="container content-box text-center">
+            <h2>Tentang Saya & Kampus</h2>
+            <p class="lead mb-4">Saya lahir di <strong>Belawan, 21 September 2006</strong>.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="mb-3">Momen Kebersamaan di Kampus:</p>
+                    <img src="jpg-best.jpeg" alt="Pertemanan Kampus" class="img-fluid img-placeholder shadow" onerror="this.src='https://via.placeholder.com/600x350?text=Foto+Pertemanan+di+Kampus'">
+                </div>
+            </div>
+            <div class="mt-5">
+                <a href="#slide5" class="btn-next">Lokasi & Tujuan</a>
+            </div>
+        </div>
+        <div class="slide-number">04</div>
+    </section>
+
+    <section id="slide5" class="slide-section slide-5">
+        <div class="container content-box text-center">
+            <i class="fas fa-map-marker-alt fa-3x mb-4"></i>
+            <h2>Domisili & Masa Depan</h2>
+            <p class="fs-4">Saat ini saya tinggal di <strong>Medan Marelan</strong>.</p>
+            <div class="mt-5 p-5 shadow-lg" style="background: rgba(0,0,0,0.2); border-radius: 30px;">
+                <h3 class="fw-bold">Cita-Cita:</h3>
+                <h1 class="display-3">PENGUSAHA</h1>
+            </div>
+            <div class="mt-5">
+                <small>Terima kasih telah melihat profil saya.</small><br>
+                <a href="#top" class="btn-next mt-3"><i class="fas fa-arrow-up"></i> Kembali ke Atas</a>
+            </div>
+        </div>
+        <div class="slide-number">05</div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
